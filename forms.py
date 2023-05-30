@@ -11,7 +11,3 @@ class Create(UserCreationForm):
         fields=('username',"email",'password1','password2')
 
 
-class ConForm(forms.ModelForm):
-    class Meta:
-        model=ContactForm
-        fields='__all__'
